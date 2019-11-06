@@ -1,0 +1,32 @@
+body {
+    background: url('images/default.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    text-shadow: 2px 2px 1px black;
+    /*font-family: 'Tahoma';*/
+    height: 600px;
+}
+
+.weather-details {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px black;
+    position: absolute;
+    padding: 50px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 50px;
+}
+
+#temp {
+    font-size: 13px;
+}
+
+#description {
+    font-size: 25px;
+}
