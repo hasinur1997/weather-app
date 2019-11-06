@@ -10,7 +10,7 @@ body {
     color: #fff;
     text-shadow: 2px 2px 1px black;
     /*font-family: 'Tahoma';*/
-    height: 600px;
+    height: 100vh;
 }
 
 .weather-details {
