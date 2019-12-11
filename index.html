@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Weather App</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Weather App</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                id="searchTerm"
+                placeholder="Enter city name or zip"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                id="weatherButton"
+                type="button"
+              >
+                Search
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" id="searchTerm" placeholder="Enter city name or zip" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" id="weatherButton" type="button">Search</button>
-                </form>
-              </div>
-            </div>
-        </nav>
-
-
-        <div class="weather-details">
-            <h2 id="city_name"></h2>
-            <div>
-                <span id="temp"></span>
-                <span id="description"></span>
-                <img src="" alt="" id="icon_section">
-            </div>
-            <hr>
-            <div id="wind"></div>
-            <div id="humidity"></div>
+            </form>
+          </div>
         </div>
+      </nav>
 
+      <div class="weather-details">
+        <h2 id="city_name"></h2>
+        <div>
+          <span id="temp"></span>
+          <span id="description"></span>
+          <img src="" alt="" id="icon_section" />
+        </div>
+        <hr />
+        <div id="wind"></div>
+        <div id="humidity"></div>
+      </div>
+    </div>
+
+    <div class="">
+      <h2>Contribute from arif</h2>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
